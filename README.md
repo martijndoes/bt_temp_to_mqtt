@@ -1,4 +1,4 @@
-<h2>Bluetooth meat thermometers to MQTT</h2>
+<h2>Bluetooth meat thermometer to MQTT</h2>
 
 Who doesn't love the bluetooth meat thermometers? You can put it in your meat and monitor the temperature from your couch. However, there is one big downside and that you have to be in a certain range of the thermometer to be able to monitor it. Once you go inside the house or go to the store you cannot monitor it anymore.
 
@@ -29,7 +29,7 @@ Open your Arduino IDE and make sure the following libraries are installed:
     <li>ArduinoBLE</li>
     <li>Wifi101</li>
     <li>ArduinoMqttClient</li>
-<ul>
+</ul>
 
 Download the bt_temp_to_mqtt file from this repository and load that in your IDE. Make sure you edit lines 8 through 12 with the values for your environment. You can also edit lines 15 through 21 if you want to edit the MQTT topics.
 
